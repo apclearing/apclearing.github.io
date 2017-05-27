@@ -4,10 +4,9 @@
 - }, 0);
 section.row-fluid.clearfix
   p.center
-    <a href="#{form_url}" class="btn btn-lg btn-success" target="_blank" title="Just click and follow these rules to submit an Application Profile."><i class="icon-plus"></i>&nbsp;Submit Doc</a>&nbsp;&nbsp;
-    <a href="#{root_url[environment]}about" class="btn btn-lg btn-info"><i class="icon-thumbs-up" title="Support our project!"></i>&nbsp;Donate</a>
+    <strong>#{total_books}</strong> documents provided by <strong>#{categories.length}</strong> institutions
   p.center
-    <strong>#{total_books}</strong> documents and <strong>#{categories.length}</strong> categories
+    <a href="#{form_url}" class="btn btn-lg btn-success" target="_blank" title="Submit an Application Profile to the Clearinghouse"><i class="icon-plus"></i>&nbsp;Submit Doc</a>&nbsp;&nbsp;
 != partial("filters")
 section.row-fluid.clearfix
   .row-fluid
@@ -20,4 +19,4 @@ section.row-fluid.clearfix
             img.img-responsive.img-rounded(src="#{root_url[environment]}assets/images/#{category_data.image}")
           div.caption
             p.center
-              a.btn.btn-block.btn-success(href="#{root_url[environment]}#{category_data.name}" title="#{category_data.about}")<i class="icon-code"></i>&nbsp;#{category_data.subtitle} (#{category_data.books.length} books)
+              a.btn.btn-block.btn-success(href="#{root_url[environment]}#{category_data.name}" title="#{category_data.about}")&nbsp;#{category_data.subtitle} (#{category_data.books.length} books)

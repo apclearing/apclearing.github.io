@@ -2,7 +2,7 @@ section.row
   .col-xs-12.col-sm-9
     h3 #{subtitle}
     p #{about}<br><br>Site: <a href="#{site}" target="_blank">#{site}</a>
-h4 Available Documents
+h4 Available Metadata Documents From This Institution:
 section.row
   - var image_path = root_url[environment] + "assets/images/"
   - var sorted_books = books.sort(function(a,b) {
@@ -15,7 +15,7 @@ section.row
     - var book_url = book.url + (book.url.indexOf("?") >= 0 ? "&" : "?") + utm;
     - var book_image = image_path + (book.image ? book.image : image)
     - var book_thumb_url = root_url[environment] + name + '#' + book_id;
-    - var book_thumb_title = "Ebook: "+ book.title;
+    - var book_thumb_title = book.title;
     section.col-xs-12.col-sm-6.col-md-4
       div(class="anchor" id="#{book_id}")
       div(class="thumbnail#{book.paid_book ? ' thumbnail-featured' : ''}")

@@ -1,8 +1,8 @@
 section.row
   .col-xs-12.col-sm-9
     h3 #{subtitle}
-    p #{about}<br>Site: <a href="#{site}" target="_blank">#{site}</a>
-h4 Books
+    p #{about}<br><br>Site: <a href="#{site}" target="_blank">#{site}</a>
+h4 Available Documents
 section.row
   - var image_path = root_url[environment] + "assets/images/"
   - var sorted_books = books.sort(function(a,b) {
@@ -22,9 +22,9 @@ section.row
         a(href="#{book_url}" target="_blank" title="#{book.title}" onclick="ga('send', 'event', '#{book.paid_book ? 'Paid Books' : 'Books'}', '#{subtitle}', '#{book.title}');")
           img.img-responsive.img-rounded(src="#{book_image}")
         div.caption
-          h3.book-title <span class="label label-success hide" data-added="#{book.added_at}">Added</span> #{book.title}
+          h3.book-title #{book.title}
           p.book-description #{book.description}
-          p.book-metadata Released: <span class="label label-success">#{book.release-date}</span> Lang.: <span class="label label-success">#{book.lang.toUpperCase()}</span> Version: <span class="label label-success">#{book.version}</span> Kind: <span class="label label-success">#{book.kind}</span>
+          p.book-metadata Released: <span class="label label-success">#{book.year}</span> Lang.: <span class="label label-success">#{book.lang.toUpperCase()}</span> Version: <span class="label label-success">#{book.version}</span> Kind: <span class="label label-success">#{book.kind.toUpperCase()}</span>
           p.book-metadata Share:&nbsp;
             <a href="https://www.facebook.com/sharer.php?u=#{encodeURIComponent(book_thumb_url)}&t=#{encodeURIComponent(book_thumb_title)}" target="_blank" rel="nofollow" class="btn btn-sm btn-primary"><i class="icon-facebook"></i></a>&nbsp;
             <a href="https://twitter.com/intent/tweet?text=#{encodeURIComponent(book_thumb_title)}%20#{encodeURIComponent(book_thumb_url)}" target="_blank" rel="nofollow" class="btn btn-sm btn-info"><i class="icon-twitter"></i></a>

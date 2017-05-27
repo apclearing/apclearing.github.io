@@ -11,8 +11,8 @@
       {
         "title": "Rice University Electronic Thesis and Dissertations MAP",
         "description": "This document presents existing metadata elements used for the description and long-term stewardship of Rice’s electronic theses and dissertations. This profile is based on recommendations from the Networked Digital Library of Theses and Dissertations' metadata standards for ETDs and the Texas Digital Library's ETD MODS application profile.",
-        "release-date": 2014,
-		"version": 'N/A',
+        "year": 2014,
+		"version": "N/A",
 		"kind": "text",
         "image": "txt.jpg",
         "lang": "EN",

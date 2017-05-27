@@ -1,8 +1,8 @@
 {
-  "name": "devfreebooks",
+  "name": "apclearing",
   "version": "2.0.0",
-  "description": "A collection of free books for developers",
-  "author": "Caio Ribeiro Pereira",
+  "description": "A clearinghouse of Application Profiles for digital collections",
+  "author": "DLF AIG Metadata Interest Group",
   "license": "MIT",
   "scripts": {
     "clean": "node clean.js",

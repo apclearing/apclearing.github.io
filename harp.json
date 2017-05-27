@@ -1,17 +1,17 @@
 {
   "globals": {
-    "title": "DevFreeBooks",
-    "slug_title": "devfreebooks",
-    "description": "A collection of free books for developers",
-    "author": "Caio Ribeiro Pereira",
-    "email": "caio.ribeiro.pereira@gmail.com",
-    "github_url": "https://github.com/devfreebooks/devfreebooks.github.io",
-    "github_repo": "git@github.com:devfreebooks/devfreebooks.github.io.git",
-    "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeXsmlLo3S7lJF82LGTOMoMpA4vg_T38Ez47gQoU6P6KaFwQg/viewform",
+    "title": "apClearinghouse",
+    "slug_title": "apclearing",
+    "description": "A clearinghouse of Application Profiles for digital collections",
+    "author": "DLF AIG Metadata Interest Group",
+    "email": "some-email@gmail.com",
+    "github_url": "https://github.com/apclearing/apclearing.github.io",
+    "github_repo": "git@github.com:apclearing/apclearing.github.io.git",
+    "form_url": "https://docs.google.com/document/d/1sQCutbNcWclwFmW7mSLyxAstF9HZ0sdRzMXEsKoC-Mk/",
     "hackernews_id": "12909967",
     "root_url": {
       "development": "http://localhost:3000/",
-      "production": "https://devfreebooks.github.io/"
+      "production": "https://apclearing.github.io/"
     },
     "devfreecasts": {
       "title": "DevFreeCasts",

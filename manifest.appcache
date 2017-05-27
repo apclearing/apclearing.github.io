@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 1 - 2017-05-04T17:29:24.278Z
+# rev 1 - 2017-05-27T04:00:44.451Z
 
 CACHE:
 404.html
@@ -25,6 +25,10 @@ assets/images/angular-basics.jpg
 assets/images/angularjs-in-60-minutes.jpg
 assets/images/angularjs-succinctly.jpg
 assets/images/angularjs.jpg
+assets/images/apclearing-128.png
+assets/images/apclearing-splash.png
+assets/images/apclearing-thumb.png
+assets/images/apclearing.png
 assets/images/automate-the-boring-stuff-with-python.jpg
 assets/images/backbone-tutorials.jpg
 assets/images/backbone.jpg
@@ -55,6 +59,7 @@ assets/images/devfreebooks.png
 assets/images/django-girls.jpg
 assets/images/django.jpg
 assets/images/dotnet.jpg
+assets/images/dpla.jpg
 assets/images/ecmascript-6-succinctly.jpg
 assets/images/ecmascript-language-specification.jpg
 assets/images/elixir-school.jpg
@@ -121,6 +126,7 @@ assets/images/meteor-tutorial.jpg
 assets/images/meteor.jpg
 assets/images/modern-perl.jpg
 assets/images/module-patterns.jpg
+assets/images/mwdl.jpg
 assets/images/node-express-and-libsass-project-from-scratch-workshop.jpg
 assets/images/nodejs-succinctly.jpg
 assets/images/nodejs.jpg
@@ -128,6 +134,7 @@ assets/images/npm-recipes.jpg
 assets/images/object-oriented-programming-in-csharp-succinctly.jpg
 assets/images/objective-c-succinctly.jpg
 assets/images/ocalm.jpg
+assets/images/pdf.jpg
 assets/images/perl.jpg
 assets/images/perl6-introduction.jpg
 assets/images/perl6.jpg
@@ -149,6 +156,7 @@ assets/images/reactjs-succinctly.jpg
 assets/images/real-world-haskell.jpg
 assets/images/real-world-ocaml.jpg
 assets/images/recipes-with-angularjs.jpg
+assets/images/rice.jpg
 assets/images/ruby-on-rails-tutorial-3rd-edition.jpg
 assets/images/ruby-web-dev-the-other-way.jpg
 assets/images/ruby.jpg
@@ -165,21 +173,7 @@ assets/images/swift-cheat-sheet.jpg
 assets/images/swift-essentials-dzone-refcard.jpg
 assets/images/the-little-go-book.jpg
 assets/images/the-majesty-of-vuejs-2.png
-assets/images/the-road-to-learn-react.jpg
-assets/images/the-type-astronauts-guide-to-shapeless.jpg
-assets/images/think-dsp.jpg
-assets/images/think-java.jpg
-assets/images/think-ocaml.jpg
-assets/images/think-python.jpg
-assets/images/typescript-deep-dive.jpg
-assets/images/typescript-succinctly.jpg
-assets/images/typescript.jpg
-assets/images/understanding-ecmascript-6.jpg
-assets/images/vim.jpg
-assets/images/web-development-using-elixir.jpg
-assets/images/whats-new-in-java8.jpg
-assets/images/your-first-meteor-application.jpg
-assets/images/your-second-meteor-application.jpg
+assets/images/txt.jpg
 assets/js/aightjs.min.js
 assets/js/application.js
 assets/js/html5shiv.min.js

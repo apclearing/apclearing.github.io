@@ -4,8 +4,8 @@
   "start_url": "/?utm_source=webapp",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#37b4ff",
-  "background_color": "#37b4ff",
+  "theme_color": "#33ccff",
+  "background_color": "#33ccff",
   "icons": [
     {
       "src": "assets/images/apclearing-128.png",

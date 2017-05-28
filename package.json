@@ -1,7 +1,7 @@
 {
   "name": "apclearing",
   "version": "2.0.0",
-  "description": "A clearinghouse of Application Profiles for digital collections",
+  "description": "A Collection of Application Profiles for Digital Collections",
   "author": "DLF AIG Metadata Interest Group",
   "license": "MIT",
   "scripts": {

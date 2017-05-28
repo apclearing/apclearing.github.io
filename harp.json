@@ -2,7 +2,8 @@
   "globals": {
     "title": "apClearinghouse",
     "slug_title": "apclearing",
-    "description": "A clearinghouse of Application Profiles for digital collections",
+    "description": "A Collection of Application Profiles for Digital Collections",
+    "frontTitle": "DLF AIG Metadata Application Profile Clearinghouse Project",
     "author": "DLF AIG Metadata Interest Group",
     "email": "some-email@gmail.com",
     "github_url": "https://github.com/apclearing/apclearing.github.io",

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[apClearinghouse]]></title><description><![CDATA[A Collection of Application Profiles for Digital Collections]]></description><link>https://apclearing.github.io/</link><image><url>https://apclearing.github.io/assets/images/apclearing-thumb.png</url><title>apClearinghouse</title><link>https://apclearing.github.io/</link></image><generator>RSS for Node</generator><lastBuildDate>Sun, 28 May 2017 01:35:54 GMT</lastBuildDate><atom:link href="https://apclearing.github.io/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 28 May 2017 01:35:00 GMT</pubDate><managingEditor><![CDATA[DLF AIG Metadata Interest Group]]></managingEditor><ttl>60</ttl><item><title><![CDATA[Free book: DPLA Metadata Application Profile]]></title><description><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[apClearinghouse]]></title><description><![CDATA[A Collection of Application Profiles for Digital Collections]]></description><link>https://scottythered.github.io/apclearing/</link><image><url>https://scottythered.github.io/apclearing/assets/images/apclearing-thumb.png</url><title>apClearinghouse</title><link>https://scottythered.github.io/apclearing/</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 30 Jun 2017 22:37:06 GMT</lastBuildDate><atom:link href="https://scottythered.github.io/apclearing/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 30 Jun 2017 22:37:00 GMT</pubDate><managingEditor><![CDATA[DLF AIG Metadata Interest Group]]></managingEditor><ttl>60</ttl><item><title><![CDATA[Free book: DPLA Metadata Application Profile]]></title><description><![CDATA[
         <article>
           <figure style="text-align:center;">
-            <img src="https://apclearing.github.io/assets/images/pdf.jpg" title="DPLA Metadata Application Profile" />
+            <img src="https://scottythered.github.io/apclearing/assets/images/pdf.jpg" title="DPLA Metadata Application Profile" />
             <figcaption>DPLA Metadata Application Profile</figcaption>
           </figure>
           <p>
@@ -12,10 +12,10 @@
             Lang: <b>EN</b> | Pages: <b>undefined</b> | Year: <b>2015</b>
           </p>
         </article>
-      ]]></description><link>https://apclearing.github.io/dpla/#dpla-metadata-application-profile</link><guid isPermaLink="true">https://apclearing.github.io/dpla/#dpla-metadata-application-profile</guid><dc:creator><![CDATA[DLF AIG Metadata Interest Group]]></dc:creator><pubDate>Fri, 26 May 2017 05:00:00 GMT</pubDate></item><item><title><![CDATA[Free book: Mountain West Digital Library Dublin Core Application Profile]]></title><description><![CDATA[
+      ]]></description><link>https://scottythered.github.io/apclearing/dpla/#dpla-metadata-application-profile</link><guid isPermaLink="true">https://scottythered.github.io/apclearing/dpla/#dpla-metadata-application-profile</guid><dc:creator><![CDATA[DLF AIG Metadata Interest Group]]></dc:creator><pubDate>Fri, 26 May 2017 05:00:00 GMT</pubDate></item><item><title><![CDATA[Free book: Mountain West Digital Library Dublin Core Application Profile]]></title><description><![CDATA[
         <article>
           <figure style="text-align:center;">
-            <img src="https://apclearing.github.io/assets/images/pdf.jpg" title="Mountain West Digital Library Dublin Core Application Profile" />
+            <img src="https://scottythered.github.io/apclearing/assets/images/pdf.jpg" title="Mountain West Digital Library Dublin Core Application Profile" />
             <figcaption>Mountain West Digital Library Dublin Core Application Profile</figcaption>
           </figure>
           <p>
@@ -26,10 +26,10 @@
             Lang: <b>EN</b> | Pages: <b>undefined</b> | Year: <b>2011</b>
           </p>
         </article>
-      ]]></description><link>https://apclearing.github.io/mwdl/#mountain-west-digital-library-dublin-core-application-profile</link><guid isPermaLink="true">https://apclearing.github.io/mwdl/#mountain-west-digital-library-dublin-core-application-profile</guid><dc:creator><![CDATA[DLF AIG Metadata Interest Group]]></dc:creator><pubDate>Fri, 26 May 2017 05:00:00 GMT</pubDate></item><item><title><![CDATA[Free book: Rice University Electronic Thesis and Dissertations MAP]]></title><description><![CDATA[
+      ]]></description><link>https://scottythered.github.io/apclearing/mwdl/#mountain-west-digital-library-dublin-core-application-profile</link><guid isPermaLink="true">https://scottythered.github.io/apclearing/mwdl/#mountain-west-digital-library-dublin-core-application-profile</guid><dc:creator><![CDATA[DLF AIG Metadata Interest Group]]></dc:creator><pubDate>Fri, 26 May 2017 05:00:00 GMT</pubDate></item><item><title><![CDATA[Free book: Rice University Electronic Thesis and Dissertations MAP]]></title><description><![CDATA[
         <article>
           <figure style="text-align:center;">
-            <img src="https://apclearing.github.io/assets/images/txt.jpg" title="Rice University Electronic Thesis and Dissertations MAP" />
+            <img src="https://scottythered.github.io/apclearing/assets/images/txt.jpg" title="Rice University Electronic Thesis and Dissertations MAP" />
             <figcaption>Rice University Electronic Thesis and Dissertations MAP</figcaption>
           </figure>
           <p>
@@ -40,4 +40,4 @@
             Lang: <b>EN</b> | Pages: <b>undefined</b> | Year: <b>2014</b>
           </p>
         </article>
-      ]]></description><link>https://apclearing.github.io/rice-university/#rice-university-electronic-thesis-and-dissertations-map</link><guid isPermaLink="true">https://apclearing.github.io/rice-university/#rice-university-electronic-thesis-and-dissertations-map</guid><dc:creator><![CDATA[DLF AIG Metadata Interest Group]]></dc:creator><pubDate>Fri, 26 May 2017 05:00:00 GMT</pubDate></item></channel></rss>
+      ]]></description><link>https://scottythered.github.io/apclearing/rice-university/#rice-university-electronic-thesis-and-dissertations-map</link><guid isPermaLink="true">https://scottythered.github.io/apclearing/rice-university/#rice-university-electronic-thesis-and-dissertations-map</guid><dc:creator><![CDATA[DLF AIG Metadata Interest Group]]></dc:creator><pubDate>Fri, 26 May 2017 05:00:00 GMT</pubDate></item></channel></rss>

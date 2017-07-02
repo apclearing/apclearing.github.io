@@ -1,15 +1,7 @@
 .DS_Store
+*.db
 www
 node_modules
 .grunt
-!public/assets/**/*
-!public/about/*
-!public/_categories/*
-!public/_shared/*
-!public/*
-public/assets/css/application.css
 npm-debug.log
-public/_data.json
 public/rss.xml
-public/**/*.jade
-public/**/_data.json

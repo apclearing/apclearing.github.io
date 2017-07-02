@@ -8,7 +8,7 @@ const rootUrl = harp.root_url.production;
 const categoryDir = path.join(__dirname, 'public/_categories');
 const imageRootUrl = `${rootUrl}assets/images/`;
 const outputFeed = 'www/rss.xml';
-const maps = [];
+const books = [];
 const feed = new RSS({
   title: harp.title,
   description: harp.description,
@@ -23,36 +23,36 @@ const feed = new RSS({
 fs.readdirSync(categoryDir).forEach((categoryFile) => {
   const categoryName = categoryFile.replace('.json', '');
   const category = require(path.join(categoryDir, categoryFile)).index;
-  category.maps.forEach((map) => {
-    const mapId = map.title.replace(/[^\w\s]/g, '').replace(/\s/g, '-').toLowerCase();
-    const mapLink = `${rootUrl}${categoryName}/#${mapId}`;
-    const mapImage = map.image || `${categoryName}.png`;
-    const mapPublishedAt = moment(map.added_at || moment().format('YYYYMMDD'), 'YYYYMMDD');
-    maps.push({
-      title: `${map.paid_map ? 'Sponsored' : 'Free'} map: ${map.title}`,
+  category.books.forEach((book) => {
+    const bookId = book.title.replace(/[^\w\s]/g, '').replace(/\s/g, '-').toLowerCase();
+    const bookLink = `${rootUrl}${categoryName}/#${bookId}`;
+    const bookImage = book.image || `${categoryName}.png`;
+    const bookPublishedAt = moment(book.added_at || moment().format('YYYYMMDD'), 'YYYYMMDD');
+    books.push({
+      title: `${book.paid_book ? 'Sponsored' : 'Free'} book: ${book.title}`,
       description: `
         <article>
           <figure style="text-align:center;">
-            <img src="${imageRootUrl}${mapImage}" title="${map.title}" />
-            <figcaption>${map.title}</figcaption>
+            <img src="${imageRootUrl}${bookImage}" title="${book.title}" />
+            <figcaption>${book.title}</figcaption>
           </figure>
           <p>
-            ${map.description}
+            ${book.description}
             <br />
-            Author: <b>${map.author}</b> | Section: <b>${category.subtitle}</b>
+            Author: <b>${book.author}</b> | Section: <b>${category.subtitle}</b>
             <br />
-            Lang: <b>${map.lang}</b> | Pages: <b>${map.pages}</b> | Year: <b>${map.year}</b>
+            Lang: <b>${book.lang}</b> | Pages: <b>${book.pages}</b> | Year: <b>${book.year}</b>
           </p>
         </article>
       `,
-      url: mapLink,
+      url: bookLink,
       author: harp.author,
-      date: mapPublishedAt.format('ll')
+      date: bookPublishedAt.format('ll')
     });
   });
 });
 
-const sortedMaps = maps.sort((first, second) => {
+const sortedBooks = books.sort((first, second) => {
   const a = moment(first.date, 'll').toDate().getTime();
   const b = moment(second.date, 'll').toDate().getTime();
   if (a < b) return 1;
@@ -60,7 +60,7 @@ const sortedMaps = maps.sort((first, second) => {
   return 0;
 });
 
-sortedMaps.forEach(map => feed.item(map));
+sortedBooks.forEach(book => feed.item(book));
 
 fs.writeFileSync(outputFeed, feed.xml());
 console.log(`Generated RSS: ${outputFeed}`);

@@ -1,10 +1,10 @@
 - var sorted_categories = categories.sort();
-- var total_maps = sorted_categories.reduce(function(total, category) {
--     return total + public[category]._data.index.maps.length;
+- var total_books = sorted_categories.reduce(function(total, category) {
+-     return total + public[category]._data.index.books.length;
 - }, 0);
 section.row-fluid.clearfix
   p.center
-    <strong>#{total_maps}</strong> Metadata Guideline Documents Provided By <strong>#{categories.length}</strong> Institutions
+    <strong>#{total_books}</strong> Metadata Guideline Documents Provided By <strong>#{categories.length}</strong> Institutions:
 != partial("filters")
 section.row-fluid.clearfix
   .row-fluid
@@ -20,4 +20,4 @@ section.row-fluid.clearfix
              a.btn.btn-block.btn-success(href="#{root_url[environment]}#{category_data.name}" title="#{category_data.about}")<i></i>&nbsp;#{category_data.subtitle}
 section.row-fluid.clearfix
   p.center
-    <a href="#{form_url}" class="btn btn-lg btn-success" target="_blank" title="Submit an Application Profile to the Clearinghouse"><i class="icon-plus"></i>&nbsp;Submit Your Institution's Documents</a>&nbsp;&nbsp;
+    <a href="#{form_url}" class="btn btn-lg btn-success" target="_blank" title="Submit an Application Profile to the Clearinghouse"><i class="icon-plus"></i>&nbsp;Submit Your Institution's Documents to the Clearinghouse Project</a>&nbsp;&nbsp;

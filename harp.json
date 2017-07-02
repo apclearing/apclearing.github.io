@@ -9,26 +9,9 @@
     "github_url": "https://github.com/apclearing/apclearing.github.io",
     "github_repo": "git@github.com:apclearing/apclearing.github.io.git",
     "form_url": "https://docs.google.com/document/d/1sQCutbNcWclwFmW7mSLyxAstF9HZ0sdRzMXEsKoC-Mk/",
-    "hackernews_id": "12909967",
     "root_url": {
       "development": "http://localhost:3000/",
       "production": "https://apclearing.github.io/"
-    },
-    "devfreecasts": {
-      "title": "DevFreeCasts",
-      "about": "A huge collection of free screencasts for developers",
-      "url": "https://devfreecasts.github.io?utm_source=devfreebooks"
-    },
-    "devnewsletters": {
-      "title": "DevNewsletters",
-      "about": "A collection of newsletters for developers subscribe",
-      "url": "https://devnewsletters.github.io?utm_source=devfreebooks"
-    },
-    "watchcoins": {
-      "title": "WatchCoins",
-      "about": "Track bitcoins/altcoins quotations in realtime",
-      "url": "https://watchcoins.net/?utm_source=devfreebooks"
-    },
-    "utm": "utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks"
+    }
   }
 }

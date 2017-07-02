@@ -2,31 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://scottythered.github.io/apclearing/about/</loc>
+<<<<<<< HEAD
+		<lastmod>2017-07-02T21:29:27.000Z</lastmod>
+=======
 		<lastmod>2017-07-02T21:13:48.000Z</lastmod>
+>>>>>>> origin/master
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://scottythered.github.io/apclearing/dpla/</loc>
+<<<<<<< HEAD
+		<lastmod>2017-07-02T21:29:27.000Z</lastmod>
+=======
 		<lastmod>2017-07-02T21:13:48.000Z</lastmod>
+>>>>>>> origin/master
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://scottythered.github.io/apclearing/</loc>
+<<<<<<< HEAD
+		<lastmod>2017-07-02T21:29:27.000Z</lastmod>
+=======
 		<lastmod>2017-07-02T21:13:48.000Z</lastmod>
+>>>>>>> origin/master
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://scottythered.github.io/apclearing/mwdl/</loc>
+<<<<<<< HEAD
+		<lastmod>2017-07-02T21:29:27.000Z</lastmod>
+=======
 		<lastmod>2017-07-02T21:13:48.000Z</lastmod>
+>>>>>>> origin/master
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://scottythered.github.io/apclearing/rice-university/</loc>
+<<<<<<< HEAD
+		<lastmod>2017-07-02T21:29:27.000Z</lastmod>
+=======
 		<lastmod>2017-07-02T21:13:48.000Z</lastmod>
+>>>>>>> origin/master
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>

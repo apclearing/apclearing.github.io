@@ -15,7 +15,7 @@ fs.readdirSync(CATEGORIES_DIR).forEach((file) => {
   const newCategoryJADEPath = path.join(newCategoryPath, 'index.jade');
   fs.emptyDirSync(newCategoryPath);
   fs.copySync(categoryJSONPath, newCategoryJSONPath);
-  fs.writeFileSync(newCategoryJADEPath, '!= partial("../_shared/thumb_books")', 'utf8');
+  fs.writeFileSync(newCategoryJADEPath, '!= partial("../_shared/thumb_maps")', 'utf8');
   output.index.categories.push(categoryName);
 });
 

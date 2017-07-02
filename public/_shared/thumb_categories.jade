@@ -1,10 +1,10 @@
 - var sorted_categories = categories.sort();
-- var total_books = sorted_categories.reduce(function(total, category) {
--     return total + public[category]._data.index.books.length;
+- var total_maps = sorted_categories.reduce(function(total, category) {
+-     return total + public[category]._data.index.maps.length;
 - }, 0);
 section.row-fluid.clearfix
   p.center
-    <strong>#{total_books}</strong> Metadata Guideline Documents Provided By <strong>#{categories.length}</strong> Institutions:
+    <strong>#{total_maps}</strong> Metadata Guideline Documents Provided By <strong>#{categories.length}</strong> Institutions:
 != partial("filters")
 section.row-fluid.clearfix
   .row-fluid

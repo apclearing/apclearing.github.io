@@ -7,7 +7,7 @@
     "site": "https://dp.la/",
     "image": "dpla.jpg",
     "description": "Metadata guidelines created by the Digital Public Library of America.",
-    "books": [
+    "maps": [
       {
         "title": "DPLA Metadata Application Profile",
         "description": "The DPLA Metadata Application Profile is designed to build on the experience of the Europeana Data Model. In addition, it incorporates feedback from the DPLA community and digital hub pilot participants to create a balanced framework that allows us to accommodate existing and emerging data models for library, archive, and museum resources.",

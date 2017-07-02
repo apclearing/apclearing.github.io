@@ -7,7 +7,7 @@
     "site": "http://mwdl.org/",
     "image": "mwdl.jpg",
     "description": "Metadata guidelines created by Mountain West Digital Library.",
-    "books": [
+    "maps": [
       {
         "title": "Mountain West Digital Library Dublin Core Application Profile",
         "description": "Created by the Mountain West Digital Library (MWDL) Metadata Working Group in 2009, this profile superseded the Metadata Guidelines for the Mountain West Digital Library (2006).  It is intended to guide the creation of new metadata (i.e., created after June 1, 2010) by members and contributing partners of the MWDL.",

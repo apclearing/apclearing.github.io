@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://scottythered.github.io/apclearing/about/</loc>
-		<lastmod>2017-06-30T22:37:04.000Z</lastmod>
+		<loc>https://apclearing.github.io/about/</loc>
+		<lastmod>2017-07-02T19:50:44.206Z</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://scottythered.github.io/apclearing/dpla/</loc>
-		<lastmod>2017-06-30T22:37:04.000Z</lastmod>
+		<loc>https://apclearing.github.io/dpla/</loc>
+		<lastmod>2017-07-02T19:50:44.228Z</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://scottythered.github.io/apclearing/</loc>
-		<lastmod>2017-06-30T22:37:04.000Z</lastmod>
+		<loc>https://apclearing.github.io/</loc>
+		<lastmod>2017-07-02T19:50:44.303Z</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://scottythered.github.io/apclearing/mwdl/</loc>
-		<lastmod>2017-06-30T22:37:04.000Z</lastmod>
+		<loc>https://apclearing.github.io/mwdl/</loc>
+		<lastmod>2017-07-02T19:50:44.265Z</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://scottythered.github.io/apclearing/rice-university/</loc>
-		<lastmod>2017-06-30T22:37:04.000Z</lastmod>
+		<loc>https://apclearing.github.io/rice-university/</loc>
+		<lastmod>2017-07-02T19:50:44.246Z</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.5</priority>
 	</url>

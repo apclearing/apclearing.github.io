@@ -1,0 +1,30 @@
+section.row
+  .col-xs-12.col-sm-9
+    h3 #{subtitle}
+    p #{about}<br><br>Site: <a href="#{site}" target="_blank">#{site}</a>
+h4 Available Metadata Documents From This Institution:
+section.row
+  - var image_path = root_url[environment] + "assets/images/"
+  - var sorted_maps = maps.sort(function(a,b) {
+  -   if (a.year < b.year) return 1;
+  -   if (a.year > b.year) return -1;
+  -   return 0;
+  - });
+  each map in maps
+    - var map_id = map.title.replace(/[^\w\s]/g, "").replace(/\s/g, "-").toLowerCase()
+    - var map_url = map.url + (map.url.indexOf("?") >= 0 ? "&" : "?") + utm;
+    - var map_image = image_path + (map.image ? map.image : image)
+    - var map_thumb_url = root_url[environment] + name + '#' + map_id;
+    - var map_thumb_title = map.title;
+    section.col-xs-12.col-sm-6.col-md-4
+      div(class="anchor" id="#{map_id}")
+      div(class="thumbnail#{map.paid_map ? ' thumbnail-featured' : ''}")
+        a(href="#{map_url}" target="_blank" title="#{map.title}" onclick="ga('send', 'event', '#{map.paid_map ? 'Paid Maps' : 'Maps'}', '#{subtitle}', '#{map.title}');")
+          img.img-responsive.img-rounded(src="#{map_image}")
+        div.caption
+          h3.map-title #{map.title}
+          p.map-description #{map.description}
+          p.map-metadata Released: <span class="label label-success">#{map.year}</span> Lang.: <span class="label label-success">#{map.lang.toUpperCase()}</span> Version: <span class="label label-success">#{map.version}</span> Kind: <span class="label label-success">#{map.kind.toUpperCase()}</span>
+          p.map-metadata Share:&nbsp;
+            <a href="https://www.facebook.com/sharer.php?u=#{encodeURIComponent(map_thumb_url)}&t=#{encodeURIComponent(map_thumb_title)}" target="_blank" rel="nofollow" class="btn btn-sm btn-primary"><i class="icon-facebook"></i></a>&nbsp;
+            <a href="https://twitter.com/intent/tweet?text=#{encodeURIComponent(map_thumb_title)}%20#{encodeURIComponent(map_thumb_url)}" target="_blank" rel="nofollow" class="btn btn-sm btn-info"><i class="icon-twitter"></i></a>

@@ -1,0 +1,19 @@
+Watson
+https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/#sentiment
+https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/getting-started.html
+
+NLTK
+http://www.nltk.org/install.html
+http://www.nltk.org/howto/sentiment.html
+
+Pattern.en
+http://www.clips.ua.ac.be/pages/pattern-en#sentiment
+
+Apache OpenNLP
+https://opennlp.apache.org/
+
+Stanford CoreNLP
+https://stanfordnlp.github.io/CoreNLP/cmdline.html#notes
+
+curl -d "text=great" http://text-processing.com/api/sentiment/
+http://text-processing.com/docs/sentiment.html

@@ -8,7 +8,7 @@ const rootUrl = harp.root_url.production;
 const categoryDir = path.join(__dirname, 'public/_categories');
 const imageRootUrl = `${rootUrl}assets/images/`;
 const outputFeed = 'www/rss.xml';
-const books = [];
+const mappings = [];
 const feed = new RSS({
   title: harp.title,
   description: harp.description,
@@ -23,36 +23,36 @@ const feed = new RSS({
 fs.readdirSync(categoryDir).forEach((categoryFile) => {
   const categoryName = categoryFile.replace('.json', '');
   const category = require(path.join(categoryDir, categoryFile)).index;
-  category.books.forEach((book) => {
-    const bookId = book.title.replace(/[^\w\s]/g, '').replace(/\s/g, '-').toLowerCase();
-    const bookLink = `${rootUrl}${categoryName}/#${bookId}`;
-    const bookImage = book.image || `${categoryName}.png`;
-    const bookPublishedAt = moment(book.added_at || moment().format('YYYYMMDD'), 'YYYYMMDD');
-    books.push({
-      title: `${book.paid_book ? 'Sponsored' : 'Free'} book: ${book.title}`,
+  category.mappings.forEach((mapping) => {
+    const mappingId = mapping.title.replace(/[^\w\s]/g, '').replace(/\s/g, '-').toLowerCase();
+    const mappingLink = `${rootUrl}${categoryName}/#${mappingId}`;
+    const mappingImage = mapping.image || `${categoryName}.png`;
+    const mappingPublishedAt = moment(mapping.added_at || moment().format('YYYYMMDD'), 'YYYYMMDD');
+    mappings.push({
+      title: `${mapping.paid_mapping ? 'Sponsored' : 'Free'} mapping: ${mapping.title}`,
       description: `
         <article>
           <figure style="text-align:center;">
-            <img src="${imageRootUrl}${bookImage}" title="${book.title}" />
-            <figcaption>${book.title}</figcaption>
+            <img src="${imageRootUrl}${mappingImage}" title="${mapping.title}" />
+            <figcaption>${mapping.title}</figcaption>
           </figure>
           <p>
-            ${book.description}
+            ${mapping.description}
             <br />
-            Author: <b>${book.author}</b> | Section: <b>${category.subtitle}</b>
+            Author: <b>${mapping.author}</b> | Section: <b>${category.subtitle}</b>
             <br />
-            Lang: <b>${book.lang}</b> | Pages: <b>${book.pages}</b> | Year: <b>${book.year}</b>
+            Lang: <b>${mapping.lang}</b> | Pages: <b>${mapping.pages}</b> | Year: <b>${mapping.year}</b>
           </p>
         </article>
       `,
-      url: bookLink,
+      url: mappingLink,
       author: harp.author,
-      date: bookPublishedAt.format('ll')
+      date: mappingPublishedAt.format('ll')
     });
   });
 });
 
-const sortedBooks = books.sort((first, second) => {
+const sortedMappings = mappings.sort((first, second) => {
   const a = moment(first.date, 'll').toDate().getTime();
   const b = moment(second.date, 'll').toDate().getTime();
   if (a < b) return 1;
@@ -60,7 +60,7 @@ const sortedBooks = books.sort((first, second) => {
   return 0;
 });
 
-sortedBooks.forEach(book => feed.item(book));
+sortedMappings.forEach(mapping => feed.item(mapping));
 
 fs.writeFileSync(outputFeed, feed.xml());
 console.log(`Generated RSS: ${outputFeed}`);

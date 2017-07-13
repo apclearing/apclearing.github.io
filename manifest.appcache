@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 1 - 2017-07-03T02:37:33.835Z
+# rev 1 - 2017-07-13T02:13:37.082Z
 
 CACHE:
 404.html
@@ -19,11 +19,12 @@ assets/images/apclearing-128.png
 assets/images/apclearing-splash.png
 assets/images/apclearing-thumb.png
 assets/images/apclearing.png
+assets/images/app-pro.jpg
+assets/images/code.jpg
 assets/images/dpla.jpg
+assets/images/map-cross.jpg
 assets/images/mwdl.jpg
-assets/images/pdf.jpg
 assets/images/rice.jpg
-assets/images/txt.jpg
 assets/js/aightjs.min.js
 assets/js/application.js
 assets/js/html5shiv.min.js

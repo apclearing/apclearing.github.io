@@ -8,7 +8,7 @@
     "email": "some-email@gmail.com",
     "github_url": "https://github.com/scottythered/apclearing",
     "github_repo": "git@github.com:scottythered/apclearing.git",
-    "form_url": "https://docs.google.com/document/d/1sQCutbNcWclwFmW7mSLyxAstF9HZ0sdRzMXEsKoC-Mk/",
+    "form_url": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe0bF11UHGjAKyOjfyCfu3frB6ozDnihLWpG6ERWpxHXgblBQ/viewform",
     "root_url": {
       "development": "http://localhost:3000/",
       "production": "https://scottythered.github.io/apclearing/"
